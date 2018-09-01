@@ -15,10 +15,10 @@ Representa la construccion/ejecucion del ejemplo usando una arquitectura de hilo
 Retorna una lista de los observadores creados para poder determinar, luego de la correcta ejecucion de todos los hilos, cuanto tardo cada uno de los hilos en notar el cambio del objecto 'Observado' y proceder a guardarlo en su atributo, este tiempo queda guardado tambien en un atributo. 
 
 ```java
-# Ejecuta codigo con patron
+# Ejecuta ejemplo con patron
 ConPatron.ejecutar(cantObservadores,valorInicial,valorCambiado)
 
-# Ejecuta codigo sin patron
+# Ejecuta ejemplo sin patron
 ArrayList<Observador> observadores = SinPatron.ejecutar(cantObservadores,valorInicial,valorCambiado)
 ```
 
